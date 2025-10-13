@@ -1,0 +1,34 @@
+/* your styles go here */
+/* Example site test */
+
+/* Landhorn Brand Colors */
+:root {
+  --brand-teal: #0C343C;   /* from ~4.7%,20.4%,23.5% RGB */
+  --brand-gold: #E19D2F;   /* from ~88.2%,61.6%,18.4% RGB */
+}
+
+/* Light accents only */
+a, .btn-primary {
+  color: var(--brand-teal);
+}
+.btn-primary, button[type="submit"] {
+  background: var(--brand-teal);
+  border-color: var(--brand-teal);
+}
+.btn-primary:hover, button[type="submit"]:hover {
+  filter: brightness(0.9);
+}
+
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
+.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+}
+
+.box-simple {
+    min-height: 230px;
+}

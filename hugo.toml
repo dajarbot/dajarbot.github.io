@@ -1,0 +1,114 @@
+baseURL = "https://landhorn.co/"
+title = "Landhorn"
+theme = "hugo-bootstrap-theme"
+publishDir = "docs"
+languageCode = "en-us"
+author = "Landhorn"
+description = "Software consulting & land/title automation for energy."
+defaultContentLanguage = "en"
+summaryLength = 70
+pluralizelisttitles = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  pagerSize = 10
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "Services"
+  url = "/services/"
+  weight = 2
+
+  [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+  [[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
+
+[params.topbar]
+  enable = true
+  text = """<p class="hidden-sm hidden-xs">Contact us at <a href='mailto:info@landhorn.co'>info@landhorn.co</a></p>
+  <p class="hidden-md hidden-lg"><a href='mailto:info@landhorn.co' data-animate-hover='pulse'><i class='fas fa-envelope'></i></a></p>"""
+
+[[menu.topbar]]
+  weight = 1
+  name = "Email"
+  url = "mailto:info@landhorn.co"
+  pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+[[menu.topbar]]
+  weight = 2
+  name = "GitHub"
+  url = "https://github.com/landhorn"
+  pre = "<i class='fab fa-2x fa-github'></i>"
+
+[params]
+  author = "Landhorn"
+  defaultKeywords = ["land", "title", "automation", "software", "oil and gas", "GIS"]
+  defaultDescription = "AI-powered land and title automation for energy and mineral management."
+  style = "default"
+
+  # Logo and Brand
+  logo = "img/logo.png"
+  logo_small = "img/logo-small.png"
+  logo_text = "Landhorn"
+
+  # Contact Info
+  address = """<p class="text-uppercase"><strong>Landhorn LLC</strong>
+  <br>Houston, Texas
+  <br><a href='mailto:info@landhorn.co'>info@landhorn.co</a></p>"""
+  contact_url = "/contact"
+
+  # Footer
+  copyright = "© 2025 Landhorn LLC. All rights reserved."
+  date_format = "January 2, 2006"
+
+  # Contact Form (Formspree)
+  formspree_action = "https://formspree.io/f/xkgqvywq"
+  contact_form_ajax = false
+  enableRecaptchaInContactForm = false
+  googleRecaptchaKey = ""
+
+[params.carouselHomepage]
+  enable = false
+
+[params.features]
+  enable = false
+
+[params.testimonials]
+  enable = false
+
+[params.clients]
+  enable = false
+
+[params.recent_posts]
+  enable = false
+
+[params.footer.recent_posts]
+  enable = false
+
+[params.widgets]
+  categories = false
+  tags = false
+  search = false
+
+# (Optional; harmless if left)
+[permalinks]
+  blog = "/blog/:year/:month/:day/:contentbasename/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
