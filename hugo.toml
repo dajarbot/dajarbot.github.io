@@ -115,3 +115,9 @@ pluralizelisttitles = false
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[build]
+  writeStats = false
+
+# Disable tag and category pages
+disableKinds = ["taxonomy", "term"]
