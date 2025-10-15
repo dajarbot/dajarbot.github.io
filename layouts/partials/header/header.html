@@ -7,11 +7,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
-        {{ if isset .Site.Params "mainmenulogo" }}
-        <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" width="30" height="24"
-          class="d-inline-block align-text-top">
-        {{ end }}
+      <a class="navbar-brand d-flex align-items-center" href="{{ .Site.Home.RelPermalink }}">
+        <img src="{{ "img/landhorn-logo.png" | relURL }}" alt="Landhorn logo" height="60" class="me-3">
         {{ .Site.Title }}
       </a>
 
