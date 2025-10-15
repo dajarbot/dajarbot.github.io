@@ -61,6 +61,25 @@ pluralizelisttitles = false
   defaultDescription = "AI-powered land and title automation for energy and mineral management."
   style = "default"
 
+  # Schema.org structured data
+  [params.organization]
+    name = "Landhorn"
+    logo = "/img/logo.png"
+    url = "https://landhorn.co/"
+    email = "info@landhorn.co"
+    locality = "Houston"
+    region = "TX"
+    country = "US"
+
+  [params.localBusiness]
+    name = "Landhorn"
+    image = "/img/logo.png"
+    telephone = ""
+    priceRange = "$$"
+    addressLocality = "Houston"
+    addressRegion = "TX"
+    addressCountry = "US"
+
 [params.options]
   bootStrapJs = true
 

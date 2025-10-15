@@ -1,0 +1,62 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Landhorn",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ .Site.BaseURL }}img/logo.png",
+  "description": "AI-powered title research and land management automation for oil & gas professionals",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Houston",
+    "addressRegion": "TX",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@landhorn.co",
+    "contactType": "Sales"
+  },
+  "sameAs": [
+    "https://github.com/landhorn"
+  ]
+}
+</script>
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Landhorn",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Contact for pricing"
+  },
+  "description": "AI-powered document automation and title research software for land and energy professionals. Automates courthouse document processing, run sheet generation, and index extraction."
+}
+</script>
+{{ end }}
+
+{{ if eq .Section "services" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Land Management Automation",
+  "provider": {
+    "@type": "Organization",
+    "name": "Landhorn"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "description": "Professional document automation services including courthouse document OCR, title research automation, run sheet generation, and custom land management software solutions."
+}
+</script>
+{{ end }}

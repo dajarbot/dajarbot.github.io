@@ -1,6 +1,7 @@
 +++
-title = "Landhorn"
-description = "AI-powered automation for land and energy professionals."
+title = "Landhorn - AI-Powered Title Research & Land Management Automation"
+description = "Landhorn automates courthouse document processing, title research, and run sheet generation for oil & gas landmen and title professionals. Transform messy records into searchable data in Houston, Texas."
+keywords = ["title research automation", "land management software", "courthouse document OCR", "oil and gas title services", "landman software", "title automation Houston", "document processing", "run sheet automation", "GIS land data", "mineral rights management"]
 +++
 
 <!-- Hero Section -->
@@ -9,8 +10,8 @@ description = "AI-powered automation for land and energy professionals."
     AI-Powered Tools for Land & Title Professionals
   </h1>
   <p class="lead mx-auto" style="max-width:700px;">
-    Landhorn helps land and energy teams transform messy courthouse documents into clean, searchable reports and maps.
-    We automate the tedious work — document scanning, index extraction, and run-sheet generation — so your team can focus on decisions, not data entry.
+    Landhorn helps oil & gas landmen and title professionals transform messy courthouse records into clean, searchable title reports and GIS maps.
+    We automate the tedious work — OCR document scanning, grantor-grantee index extraction, and run-sheet generation — so your team can focus on land decisions, not manual data entry.
   </p>
 </div>
 <!-- Value Propositions -->
@@ -24,7 +25,7 @@ description = "AI-powered automation for land and energy professionals."
           </svg>
         </div>
         <h3 class="fs-4 fw-bold mb-3" style="color: #0C343C;">Speed</h3>
-        <p class="text-muted">Automate repetitive title & index work.</p>
+        <p class="text-muted">Automate repetitive title searches, lease review, and grantor-grantee index work.</p>
       </div>
     </div>
   </div>
@@ -40,7 +41,7 @@ description = "AI-powered automation for land and energy professionals."
           </svg>
         </div>
         <h3 class="fs-4 fw-bold mb-3" style="color: #0C343C;">Accuracy</h3>
-        <p class="text-muted">Generate consistent, audit-ready results every time.</p>
+        <p class="text-muted">Generate consistent, audit-ready title opinions and mineral rights reports every time.</p>
       </div>
     </div>
   </div>

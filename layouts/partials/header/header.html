@@ -126,8 +126,8 @@
 </header>
 
 {{- /* Landscape image banner - shown on all pages */ -}}
-{{ if fileExists "static/img/landscape.png" }}
+{{ if fileExists "static/img/landscape.jpg" }}
 <div class="landscape-banner">
-  <img src="{{ "img/landscape.png" | relURL }}" alt="Landscape" class="img-fluid w-100">
+  <img src="{{ "img/landscape.jpg" | relURL }}" alt="Oil and gas land operations - aerial view of Texas energy infrastructure" class="img-fluid w-100" loading="lazy">
 </div>
 {{ end }}

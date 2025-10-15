@@ -1,6 +1,7 @@
 +++
-title = "Our Services"
-description = "Automating document processing and building the infrastructure that connects land systems to decisions."
+title = "Title Research & Land Management Automation Services"
+description = "Professional document automation services for oil & gas landmen and title companies. Courthouse document OCR, run sheet generation, index extraction, and custom land management software solutions."
+keywords = ["title research services", "land management automation", "courthouse document processing", "OCR services for landmen", "run sheet automation", "title opinion software", "GIS integration", "mineral rights tracking"]
 +++
 
 <div class="mb-5 text-center" style="max-width: 900px; margin: auto;">

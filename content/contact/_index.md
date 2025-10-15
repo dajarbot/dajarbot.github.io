@@ -1,5 +1,7 @@
 +++
-title = "Contact"
+title = "Contact Landhorn - Get a Demo or Request Information"
+description = "Contact Landhorn for a free demo of our title research automation and land management software. Based in Houston, Texas serving oil & gas professionals nationwide."
+keywords = ["contact landman software", "request demo title automation", "Houston land services contact", "oil and gas software demo"]
 +++
 
 <div class="text-center mb-4">

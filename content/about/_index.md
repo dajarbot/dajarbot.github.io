@@ -1,6 +1,7 @@
 +++
-title = "About Landhorn"
-description = "Landhorn combines land expertise with modern software design."
+title = "About Landhorn - Houston Land & Title Automation Experts"
+description = "Founded by experienced landmen and GIS specialists in Houston, Texas. Over a decade of title research expertise transformed into AI-powered document automation software for the energy industry."
+keywords = ["land automation company Houston", "title research experts", "landman software developers", "GIS specialists oil and gas", "Houston energy technology"]
 +++
 
 <div class="mx-auto" style="max-width:800px;">
@@ -8,8 +9,8 @@ description = "Landhorn combines land expertise with modern software design."
   Built by Land Professionals
   <span style="position: absolute; bottom: -5px; left: 50%; transform: translateX(-50%); width: 150px; height: 3px; background: #E19D2F;"></span>
 </h2>
-<p>Landhorn was founded by a team of landmen, GIS specialists, and software engineers who have spent over a decade inside the title industry. We've seen firsthand how much time is lost to manual data entry, slow document searches, and disconnected tools.</p>
-<p>Our mission is to modernize the land workflow — one process at a time. We build modular, cloud-based tools that help brokers, attorneys, and analysts move faster while maintaining accuracy.</p>
+<p>Landhorn was founded by experienced landmen, GIS specialists, and software engineers who have spent over a decade working in title research and mineral rights management. We've seen firsthand how much time is lost to manual data entry, slow courthouse document searches, and disconnected land management systems.</p>
+<p>Our mission is to modernize the land and title workflow — one process at a time. We build modular, cloud-based automation tools that help land brokers, title attorneys, and lease analysts move faster while maintaining the accuracy required for title opinions and due diligence reports.</p>
 <div class="my-5 p-4" style="background: linear-gradient(135deg, rgba(12,52,60,0.05) 0%, rgba(225,157,47,0.08) 100%); border-left: 4px solid #E19D2F; border-radius: 0.5rem;">
 <h3 class="mb-3" style="color: #0C343C;">Our Vision</h3>
 <p class="mb-0">We believe the future of land services is connected. Landhorn's platform acts as infrastructure — not just another app — linking data, people, and processes together.</p>
