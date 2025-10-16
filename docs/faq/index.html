@@ -10,7 +10,7 @@
 <meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
     
 
-<link rel="stylesheet" href="/css/style.37673ece2cc7ba6ae4392dc2cbd56efcda5a6aefee7dc4b4afeb1c04403139f88f6acf67599a3d9f840d204a56b88db8c62b33a08ce00c914dd425e16e009de5.css" media="screen" integrity="sha512-N2c&#43;zizHumrkOS3Cy9Vu/Npaau/ufcS0r&#43;scBEAxOfiPas9nWZo9n4QNIEpWuI24xiszoIzgDJFN1CXhbgCd5Q==" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/style.b1e03acb1d41bf95c344f57f88c135f1ed6985a9cc1c4c48fa4182bfe95f5cf4f2ba7502c7abc8885f84da165b503d88029a3904ebb840e6ef343662ce77f232.css" media="screen" integrity="sha512-seA6yx1Bv5XDRPV/iME18e1phanMHExI&#43;kGCv&#43;lfXPTyunUCx6vIiF&#43;E2hZbUD2IApo5BOu4QObvNDZiznfyMg==" crossorigin="anonymous">
 
     <title>FAQ</title>
 
@@ -150,13 +150,48 @@
         
         <div class="d-flex gap-2 ms-3">
           <a href="https://calendly.com/daniel-landhorn/30min" target="_blank" class="btn btn-outline-gold">Schedule Demo</a>
-          <a href="#" class="btn btn-gold">Login</a>
+          <button type="button" class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
         </div>
 
       </div>
     </div>
   </nav>
 </header>
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <h5 class="modal-title fw-bold" id="loginModalLabel" style="color: #0C343C;">Enter Your Organization</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pt-2">
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="organizationInput" class="form-label">Organization Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="organizationInput"
+              placeholder=""
+              autocomplete="off"
+              list="organizationList">
+            <datalist id="organizationList">
+              <option value="RAS">
+              <option value="WEM">
+              <option value="Demo">
+            </datalist>
+            <div class="form-text">Enter your organization name to continue to login</div>
+          </div>
+          <button type="submit" class="btn btn-gold w-100" id="continueLoginBtn" disabled>
+            Continue to Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="landscape-banner">
   <img src="/img/landscape.jpg" alt="Oil and gas land operations - aerial view of Texas energy infrastructure" class="img-fluid w-100" loading="lazy">
 </div>
@@ -217,6 +252,8 @@
   
     <script src="/js/main.min.e8d88c82c0438b527f1aca4115652ba1e2877bf805b75593b23ac0e3fe2b3fe95a467d1feef275355132ba061da6404b0d24d55afabc209b294b1db043be014d.js" integrity="sha512-6NiMgsBDi1J/GspBFWUroeKHe/gFt1WTsjrA4/4rP&#43;laRn0f7vJ1NVEyugYdpkBLDSTVWvq8IJspSx2wQ74BTQ==" crossorigin="anonymous" defer></script>
   
+  
+  <script src="/js/login-modal.js" defer></script>
   
 
 

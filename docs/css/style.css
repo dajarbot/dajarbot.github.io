@@ -12535,4 +12535,50 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   animation: fadeInUp 0.6s ease-out;
 }
 
+#loginModal .modal-content {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+#loginModal .modal-header {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+#loginModal .modal-body {
+  padding: 0.5rem 1.5rem 1.5rem;
+}
+
+#loginModal #organizationInput {
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+#loginModal #organizationInput:focus {
+  border-color: #E19D2F;
+  box-shadow: 0 0 0 0.25rem rgba(225, 157, 47, 0.25);
+}
+
+#loginModal #organizationInput.is-valid {
+  border-color: #198754;
+  background-image: none;
+}
+
+#loginModal #organizationInput.is-invalid {
+  border-color: #dc3545;
+  background-image: none;
+}
+
+#loginModal .btn-gold {
+  padding: 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+#loginModal .btn-gold:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /*# sourceMappingURL=style.css.map */

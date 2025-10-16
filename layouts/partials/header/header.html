@@ -114,13 +114,48 @@
         <!-- Demo and Login Buttons -->
         <div class="d-flex gap-2 ms-3">
           <a href="https://calendly.com/daniel-landhorn/30min" target="_blank" class="btn btn-outline-gold">Schedule Demo</a>
-          <a href="#" class="btn btn-gold">Login</a>
+          <button type="button" class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
         </div>
 
       </div>
     </div>
   </nav>
 </header>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <h5 class="modal-title fw-bold" id="loginModalLabel" style="color: #0C343C;">Enter Your Organization</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pt-2">
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="organizationInput" class="form-label">Organization Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="organizationInput"
+              placeholder=""
+              autocomplete="off"
+              list="organizationList">
+            <datalist id="organizationList">
+              <option value="RAS">
+              <option value="WEM">
+              <option value="Demo">
+            </datalist>
+            <div class="form-text">Enter your organization name to continue to login</div>
+          </div>
+          <button type="submit" class="btn btn-gold w-100" id="continueLoginBtn" disabled>
+            Continue to Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 {{- /* Landscape image banner - shown on all pages */ -}}
 {{ if fileExists "static/img/landscape.jpg" }}
